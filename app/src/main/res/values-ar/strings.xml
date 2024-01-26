@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dab</string>
+    <string name="save">حفظ</string>
+    <string name="enter_phone_number">ادخل رقم الهاتف</string>
+    <string name="enter_your_destnation">ادخل الوجهه</string>
+    <string name="enter_project_name">ادخل اسم المشروع</string>
+    <string name="delete_all_project">امسح جميع المشاريع</string>
+    <string name="add_driver">اضافة سائق</string>
+    <string name="phone_number">رقم الهاتف :</string>
+    <string name="vehicle_number">رقم المركبه :</string>
+    <string name="new_order">اذن تسليم جديد</string>
+    <string name="destnation">الوجهه :</string>
+    <string name="mixture">الخلطه</string>
+    <string name="driver">السائق :</string>
+    <string name="loaded">الحموله :</string>
+    <string name="payment">الدفعه :</string>
+</resources>

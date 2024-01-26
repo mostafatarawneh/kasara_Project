@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dab</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="save">Save</string>
+    <string name="enter_phone_number">Enter Phone Number?</string>
+    <string name="enter_your_destnation">Enter your destnation</string>
+    <string name="enter_project_name">Enter Project Name ?</string>
+    <string name="delete_all_project">Delete all Project</string>
+    <string name="add_driver">Add Driver</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="vehicle_number">Vehicle Number :</string>
+    <string name="new_order">New Order</string>
+    <string name="destnation">Destnation :</string>
+    <string name="mixture">Mixture</string>
+    <string name="driver">Driver :</string>
+    <string name="loaded">Loaded :</string>
+    <string name="payment">Payment :</string>
+
+    <string-array name="mixtures">
+        <item>بايندر كورس</item>
+        <item>ويرنج لاير</item>
+        <item>بيس كورس</item>
+
+     </string-array>
+
+</resources>

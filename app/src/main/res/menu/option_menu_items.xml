@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="@string/delete_all_project"
+    android:id="@+id/item_optionMenu_del">
+
+</item>
+    <item android:title="@string/add_driver"
+        android:id="@+id/item_optionMenu_addDriver"/>
+
+</menu>
