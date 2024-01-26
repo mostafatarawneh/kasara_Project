@@ -1,9 +1,12 @@
 package com.mostafa.dab
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -13,6 +16,13 @@ import com.mostafa.dab.Fragements.AddDriverFragment
 import com.mostafa.dab.Fragements.AddOrderFragment
 import com.mostafa.dab.Fragements.AddProjectFragment
 import com.mostafa.dab.Fragements.DriverFragment
+import com.sunmi.peripheral.printer.InnerPrinterCallback
+import com.sunmi.peripheral.printer.InnerPrinterManager
+import com.sunmi.peripheral.printer.SunmiPrinterService
+import com.sunmi.peripheral.printer.SystemPropertyUtil
+import com.sunmi.sunmiv2.services.SunmiPrinter
+
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,6 +30,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.main_farmelayout, AddProjectFragment()).commit()
@@ -45,6 +58,9 @@ class MainActivity : AppCompatActivity() {
                else-> return@setOnItemSelectedListener  false
             }
         }
+
+
+
 
 
     }
@@ -81,6 +97,12 @@ class MainActivity : AppCompatActivity() {
 
         return super.onOptionsItemSelected(item)
     }
+
+
+
+
+
+
 
 
 }

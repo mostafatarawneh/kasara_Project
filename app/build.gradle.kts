@@ -1,3 +1,5 @@
+import org.gradle.internal.impldep.bsh.commands.dir
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -40,15 +42,17 @@ android {
 }
 
 dependencies {
-
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.aar"))))
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation ("com.sunmi:printerlibrary:1.0.18")
+//    implementation ("com.sunmi:printerlibrary:1.0.18")
 //    implementation ("com.sunmi:sunmiui:1.1.27")
 //    implementation ("libs/core-3.3.0.jar")
+    implementation(files("libs/SunmiV2.aar"))
     implementation("com.sunmi:printerlibrary:1.0.18")
+    implementation("com.sunmi:printerlibrary:1.0.13")
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 
     testImplementation("junit:junit:4.13.2")
